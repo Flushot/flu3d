@@ -1,0 +1,10 @@
+*.DS_Store
+*.ncb
+*.opt
+*.suo
+*.iml
+*.log
+Debug/
+Release/
+/BUILD/
+/.idea/

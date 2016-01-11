@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{388a0847-9dc8-4854-b3f9-2419628edb69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Log">
+      <UniqueIdentifier>{52bf216a-7e17-4c0f-b54a-b12042448d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Log\Outputters">
+      <UniqueIdentifier>{dcb0e98d-7144-44ab-ab17-b27bd02ad0bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SceneManager">
+      <UniqueIdentifier>{72cae4ca-05eb-46f1-9386-540e77191ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SceneManager\Octree">
+      <UniqueIdentifier>{7bfd6b75-8918-4402-80ed-054d869d8c9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SceneManager\Nodes">
+      <UniqueIdentifier>{824a5bc5-148f-461a-92d2-1ed823b3ec5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SceneManager\Nodes\Sound">
+      <UniqueIdentifier>{a3884a6b-8a17-4099-b992-8a9b47f33ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SceneManager\Nodes\TriMesh">
+      <UniqueIdentifier>{cd2ace25-3dd1-4f6f-9d92-fe6147c4a5c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SceneManager\Nodes\Test">
+      <UniqueIdentifier>{1df435aa-84cc-4bdb-b963-f85f2568fef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SceneManager\Nodes\Light">
+      <UniqueIdentifier>{19420a76-8a57-4083-8b34-4cd17e4be2a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SceneManager\Nodes\Camera">
+      <UniqueIdentifier>{5a133b5b-55a4-47f0-9fed-500e02c60418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SceneManager\Nodes\Null">
+      <UniqueIdentifier>{fe133342-c3ea-4c5e-9a35-09443da1921b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SceneManager\Nodes\ParticleGen">
+      <UniqueIdentifier>{fff4632b-834b-424c-91aa-2f3661689ce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Windows">
+      <UniqueIdentifier>{538a6b77-1a45-4462-8aee-df524fb80b51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Helpers">
+      <UniqueIdentifier>{ff405b16-69db-499a-bf6e-d20085a6d522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\InputManager">
+      <UniqueIdentifier>{a6b4c1be-0b8e-4c9d-a0db-a3d4c6e72e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Primitives">
+      <UniqueIdentifier>{0eab9406-077b-47ec-86b9-9667dc322289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Primitives\Material">
+      <UniqueIdentifier>{894bc695-2125-4ed9-99d2-31c3e6bf2e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Primitives\Mesh">
+      <UniqueIdentifier>{d8758203-c115-4d41-a18a-a4c9cb3a5caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Primitives\Color">
+      <UniqueIdentifier>{26becd71-329f-4407-b063-54e22a3971b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Primitives\Vector">
+      <UniqueIdentifier>{b93482b9-ee50-4683-b410-efce6c1bb0cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Primitives\Triangle">
+      <UniqueIdentifier>{11d95f16-795f-48ce-b573-eec2f1ed9594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Primitives\Sprite">
+      <UniqueIdentifier>{75388234-58e6-4bdd-a284-1f70b32b0f2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Primitives\Rectangle">
+      <UniqueIdentifier>{e043917e-6a66-4e39-9c5b-bcce71dea557}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\Log.cpp">
+      <Filter>Engine\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\Outputters\ConsoleLogOutputter.cpp">
+      <Filter>Engine\Log\Outputters</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\Outputters\ODSLogOutputter.cpp">
+      <Filter>Engine\Log\Outputters</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Engine\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneNode.cpp">
+      <Filter>Engine\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Octree.cpp">
+      <Filter>Engine\SceneManager\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundNode.cpp">
+      <Filter>Engine\SceneManager\Nodes\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="TriMeshNode.cpp">
+      <Filter>Engine\SceneManager\Nodes\TriMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="TestNode.cpp">
+      <Filter>Engine\SceneManager\Nodes\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="LightNode.cpp">
+      <Filter>Engine\SceneManager\Nodes\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraNode.cpp">
+      <Filter>Engine\SceneManager\Nodes\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="NullNode.cpp">
+      <Filter>Engine\SceneManager\Nodes\Null</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleGenNode.cpp">
+      <Filter>Engine\SceneManager\Nodes\ParticleGen</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Engine\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="bmp.cpp">
+      <Filter>Engine\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="GLHelper.cpp">
+      <Filter>Engine\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Engine\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Engine\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Primitives\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Primitives\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\ILogOutputter.h">
+      <Filter>Engine\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\Log.h">
+      <Filter>Engine\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\Outputters\ConsoleLogOutputter.h">
+      <Filter>Engine\Log\Outputters</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\Outputters\ODSLogOutputter.h">
+      <Filter>Engine\Log\Outputters</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Engine\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneNode.h">
+      <Filter>Engine\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Octree.h">
+      <Filter>Engine\SceneManager\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="OctreeNode.h">
+      <Filter>Engine\SceneManager\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundNode.h">
+      <Filter>Engine\SceneManager\Nodes\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="TriMeshNode.h">
+      <Filter>Engine\SceneManager\Nodes\TriMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="TestNode.h">
+      <Filter>Engine\SceneManager\Nodes\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="LightNode.h">
+      <Filter>Engine\SceneManager\Nodes\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraNode.h">
+      <Filter>Engine\SceneManager\Nodes\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="NullNode.h">
+      <Filter>Engine\SceneManager\Nodes\Null</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleGenNode.h">
+      <Filter>Engine\SceneManager\Nodes\ParticleGen</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Engine\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="bmp.h">
+      <Filter>Engine\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="GLHelper.h">
+      <Filter>Engine\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Engine\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Engine\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Primitives\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Primitives\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Primitives\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Primitives\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Primitives\Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Primitives\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Primitives\Rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+</Project>
